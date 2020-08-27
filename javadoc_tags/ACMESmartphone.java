@@ -59,6 +59,7 @@ public class ACMESmartphone {
 		System.out.println("location: " + city + ", " + state);
 		System.out.println("getting geocoordinates of roadrunner.... ");
 		System.out.println("roadrunner located at " + LongLat);
+		System.out.println("roadrunner located at changes made");
 		return LongLat;
 		
 	}
@@ -77,6 +78,7 @@ public class ACMESmartphone {
 	public void zapRoadRunner(int voltage) throws IOException {
 		if (voltage < 31) {
 			System.out.println("Zapping roadrunner with " + voltage + " volts!!!!");
+			System.out.println("Zapping roadrunner with a new values entered here");
 		}
 		else {
 			System.out.println("Backfire!!! zapping coyote with 1,000,000 volts!!!!");
