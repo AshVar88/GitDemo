@@ -14,6 +14,7 @@ public class App {
 		
 		// Zap the roadrunner with the amount of voltage you want.
 		myACMESmartphone.zapRoadRunner(40);
+		System.out.println("postjira1");
 
 	}
 
