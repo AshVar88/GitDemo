@@ -60,9 +60,11 @@ public class ACMESmartphone {
 		System.out.println("getting geocoordinates of roadrunner.... ");
 		System.out.println("roadrunner located at " + LongLat);
 		System.out.println("roadrunner located at changes made");
+		System.out.println("roadrunner located at changes made by American guy");
 		return LongLat;
 		
 	}
+	
 	
 	/**
 	 * Zaps the roadrunner with the amount of volts you specify. 
